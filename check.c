@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+/*このプログラムは文字列内にアルファベットがあるかどうかを確認するためのプログラムです。 */
+
 int islower(int c){/*アルファベット小文字*/
     return  'a'<= c && c <= 'z';
 }
@@ -15,3 +17,4 @@ int isalpha(int c)/*アルファベット文字*/
 int main(void){
 
 }
+
