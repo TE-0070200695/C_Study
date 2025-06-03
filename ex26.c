@@ -24,9 +24,7 @@ int main(void){
 
 void my_strcat(char s1[],char s2[]){
     int i=0;
-    while(s1[i]!='\0'){
-        i++;
-    }
+    i = strlen(s1);
     int j=0;
     while(s1[i]=s2[j]){
         i++;
